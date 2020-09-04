@@ -1,26 +1,53 @@
 ﻿using MatrixAdding;
 using System;
+using System.Diagnostics;
 using System.Threading;
 
 namespace Ui
 {
-    class Program
+    static class Program
     {
         static void Main(string[] args)
         {
-            var a = MatrixAddingExtencion.GetRandomMatrix(500, 500);
-            var b = MatrixAddingExtencion.GetRandomMatrix(500, 500);
-            Console.WriteLine("Starts");
-            var c = a.AddParalel(b);
-            
-            for(int i = 0;i<c.GetLength(0);i++)
-            {
-                for(int j = 0;j<c.GetLength(0);j++)
-                {
-                    Console.Write((c[i, j],3).ToString() + "\t");
-                }
-                Console.WriteLine();
-            }
+            //var a = new double[3, 4]
+            //    {
+            //        {1, 2, 3, 4},
+            //        {1, 2, 3, 4},
+            //        {1, 2, 3, 4}
+            //    };
+            //    
+            //
+            //var b = new double[3, 4]
+            //    {
+            //        {4, 3, 2, 1},
+            //        {4, 3, 2, 1},
+            //        {4, 3, 2, 1},
+            //    };
+
+
+            var a = MatrixExtencion.GetRandomMatrix(5000, 5000);
+            var b = MatrixExtencion.GetRandomMatrix(5000, 5000);
+
+            var sw = new Stopwatch();
+            sw.Start();
+            var c = a.AddInTwoThreads(b);
+            sw.Stop();
+            Console.WriteLine(sw.ElapsedMilliseconds);
+
+
+
+
+
+            sw.Restart();
+            sw.Start();
+            var c1 = a.Add(b);
+            sw.Stop();
+            Console.WriteLine(sw.ElapsedMilliseconds);
+
+
+
+
+
         }
     }
 }

@@ -4594,23 +4594,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\vavry\\.nuget\\packages\\": {},
+    "C:\\Users\\User\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\vavry\\source\\repos\\Vavrykovych\\MaxrixAddingParalel\\MatrixAdding\\MatrixAddingTests\\MatrixAddingTests.csproj",
+      "projectUniqueName": "C:\\Users\\User\\Desktop\\Vavrykovych\\MaxrixAddingParalel\\MatrixAdding\\MatrixAddingTests\\MatrixAddingTests.csproj",
       "projectName": "MatrixAddingTests",
-      "projectPath": "C:\\Users\\vavry\\source\\repos\\Vavrykovych\\MaxrixAddingParalel\\MatrixAdding\\MatrixAddingTests\\MatrixAddingTests.csproj",
-      "packagesPath": "C:\\Users\\vavry\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\vavry\\source\\repos\\Vavrykovych\\MaxrixAddingParalel\\MatrixAdding\\MatrixAddingTests\\obj\\",
+      "projectPath": "C:\\Users\\User\\Desktop\\Vavrykovych\\MaxrixAddingParalel\\MatrixAdding\\MatrixAddingTests\\MatrixAddingTests.csproj",
+      "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\User\\Desktop\\Vavrykovych\\MaxrixAddingParalel\\MatrixAdding\\MatrixAddingTests\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\vavry\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -4623,8 +4623,8 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "C:\\Users\\vavry\\source\\repos\\Vavrykovych\\MaxrixAddingParalel\\MatrixAdding\\MatrixAdding\\MatrixAdding.csproj": {
-              "projectPath": "C:\\Users\\vavry\\source\\repos\\Vavrykovych\\MaxrixAddingParalel\\MatrixAdding\\MatrixAdding\\MatrixAdding.csproj"
+            "C:\\Users\\User\\Desktop\\Vavrykovych\\MaxrixAddingParalel\\MatrixAdding\\MatrixAdding\\MatrixAdding.csproj": {
+              "projectPath": "C:\\Users\\User\\Desktop\\Vavrykovych\\MaxrixAddingParalel\\MatrixAdding\\MatrixAdding\\MatrixAdding.csproj"
             }
           }
         }
@@ -4666,7 +4666,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.200\\RuntimeIdentifierGraph.json"
       }
     }
   }

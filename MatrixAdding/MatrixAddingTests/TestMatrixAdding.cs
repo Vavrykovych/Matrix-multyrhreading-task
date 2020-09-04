@@ -5,10 +5,6 @@ namespace MatrixAddingTests
 {
     public class Tests
     {
-        [SetUp]
-        public void Setup()
-        {
-        }
 
 
         private static readonly object[] ArraysPlusOperator =
@@ -46,7 +42,7 @@ namespace MatrixAddingTests
         [TestCaseSource(nameof(ArraysPlusOperator))]
         public void Matrix_Add_Paralel_Works_Correctly(double[,] matrix1, double[,] matrix2, double[,] result)
         {
-            double[,] actual = matrix1.AddParalel(matrix2);
+            double[,] actual = matrix1.AddInTwoThreads(matrix2);
             Assert.AreEqual(result, actual);
         }
     }

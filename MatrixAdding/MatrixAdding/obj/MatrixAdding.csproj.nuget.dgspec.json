@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\vavry\\source\\repos\\Vavrykovych\\MaxrixAddingParalel\\MatrixAdding\\MatrixAdding\\MatrixAdding.csproj": {}
+    "C:\\Users\\User\\Desktop\\Vavrykovych\\MaxrixAddingParalel\\MatrixAdding\\MatrixAdding\\MatrixAdding.csproj": {}
   },
   "projects": {
-    "C:\\Users\\vavry\\source\\repos\\Vavrykovych\\MaxrixAddingParalel\\MatrixAdding\\MatrixAdding\\MatrixAdding.csproj": {
+    "C:\\Users\\User\\Desktop\\Vavrykovych\\MaxrixAddingParalel\\MatrixAdding\\MatrixAdding\\MatrixAdding.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\vavry\\source\\repos\\Vavrykovych\\MaxrixAddingParalel\\MatrixAdding\\MatrixAdding\\MatrixAdding.csproj",
+        "projectUniqueName": "C:\\Users\\User\\Desktop\\Vavrykovych\\MaxrixAddingParalel\\MatrixAdding\\MatrixAdding\\MatrixAdding.csproj",
         "projectName": "MatrixAdding",
-        "projectPath": "C:\\Users\\vavry\\source\\repos\\Vavrykovych\\MaxrixAddingParalel\\MatrixAdding\\MatrixAdding\\MatrixAdding.csproj",
-        "packagesPath": "C:\\Users\\vavry\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\vavry\\source\\repos\\Vavrykovych\\MaxrixAddingParalel\\MatrixAdding\\MatrixAdding\\obj\\",
+        "projectPath": "C:\\Users\\User\\Desktop\\Vavrykovych\\MaxrixAddingParalel\\MatrixAdding\\MatrixAdding\\MatrixAdding.csproj",
+        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\User\\Desktop\\Vavrykovych\\MaxrixAddingParalel\\MatrixAdding\\MatrixAdding\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\vavry\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -55,7 +55,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.200\\RuntimeIdentifierGraph.json"
         }
       }
     }
