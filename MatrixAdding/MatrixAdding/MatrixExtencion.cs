@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Runtime.CompilerServices;
+using System.Security.Cryptography.X509Certificates;
 using System.Threading;
 using System.Threading.Tasks;
 
@@ -43,6 +44,90 @@ namespace MatrixAdding
 
             return res;
         }
+
+
+        public static double[,] AddInFourThreads(this double[,] matrix1, double[,] matrix2)
+        {
+            if (matrix1.GetLength(0) != matrix2.GetLength(0) || matrix1.GetLength(1) != matrix2.GetLength(1))
+            {
+                throw new ArgumentException("Matrixes must be the same size.");
+            }
+            double[,] res = new double[matrix1.GetLength(0), matrix1.GetLength(1)];
+            Thread[] threads = new Thread[4];
+            threads[0] = new Thread(() => { AddPartial(matrix1, matrix2, res,        0, matrix1.GetLength(0) / 4); });
+            threads[1] = new Thread(() => { AddPartial(matrix1, matrix2, res,        matrix1.GetLength(0) / 4, matrix1.GetLength(0) /2); });
+            threads[2] = new Thread(() => { AddPartial(matrix1, matrix2, res,        matrix1.GetLength(0) / 2, matrix1.GetLength(0) / 2 + matrix1.GetLength(0) / 4); });
+            threads[3] = new Thread(() => { AddPartial(matrix1, matrix2, res,        matrix1.GetLength(0) / 2 + matrix1.GetLength(0) / 4, matrix1.GetLength(0)); });
+
+            foreach(var i in threads)
+            {
+                i.Start();
+            }
+            foreach (var i in threads)
+            {
+                i.Join();
+            }
+
+
+            return res;
+        }
+
+        public static double[,] AddInSixThread(this double[,] matrix1, double[,] matrix2)
+        {
+            if (matrix1.GetLength(0) != matrix2.GetLength(0) || matrix1.GetLength(1) != matrix2.GetLength(1))
+            {
+                throw new ArgumentException("Matrixes must be the same size.");
+            }
+            double[,] res = new double[matrix1.GetLength(0), matrix1.GetLength(1)];
+            Thread[] threads = new Thread[6];
+            threads[0] = new Thread(() => { AddPartial(matrix1, matrix2, res,       0, matrix1.GetLength(0) / 6); });
+            threads[1] = new Thread(() => { AddPartial(matrix1, matrix2, res,       matrix1.GetLength(0) / 6, 2*matrix1.GetLength(0) / 6); });
+            threads[2] = new Thread(() => { AddPartial(matrix1, matrix2, res,       2* matrix1.GetLength(0) / 6, 3*matrix1.GetLength(0) / 6); });
+            threads[3] = new Thread(() => { AddPartial(matrix1, matrix2, res,       3 * matrix1.GetLength(0) / 6, 4 * matrix1.GetLength(0) / 6); });
+            threads[4] = new Thread(() => { AddPartial(matrix1, matrix2, res,       4 * matrix1.GetLength(0) / 6, 5 * matrix1.GetLength(0) / 6); });
+            threads[5] = new Thread(() => { AddPartial(matrix1, matrix2, res,       5 * matrix1.GetLength(0) / 6, matrix1.GetLength(0)); });
+            foreach (var i in threads)
+            {
+                i.Start();
+            }
+            foreach (var i in threads)
+            {
+                i.Join();
+            }
+
+
+            return res;
+        }
+
+        public static double[,] AddInEightThread(this double[,] matrix1, double[,] matrix2)
+        {
+            if (matrix1.GetLength(0) != matrix2.GetLength(0) || matrix1.GetLength(1) != matrix2.GetLength(1))
+            {
+                throw new ArgumentException("Matrixes must be the same size.");
+            }
+            double[,] res = new double[matrix1.GetLength(0), matrix1.GetLength(1)];
+            Thread[] threads = new Thread[8];
+            threads[0] = new Thread(() => { AddPartial(matrix1, matrix2, res,       0, matrix1.GetLength(0) / 8); });
+            threads[1] = new Thread(() => { AddPartial(matrix1, matrix2, res,       matrix1.GetLength(0) / 8, 2 * matrix1.GetLength(0) / 8); });
+            threads[2] = new Thread(() => { AddPartial(matrix1, matrix2, res,       2 * matrix1.GetLength(0) / 8, 3 * matrix1.GetLength(0) / 8); });
+            threads[3] = new Thread(() => { AddPartial(matrix1, matrix2, res,       3 * matrix1.GetLength(0) / 8, 4 * matrix1.GetLength(0) / 8); });
+            threads[4] = new Thread(() => { AddPartial(matrix1, matrix2, res,       4 * matrix1.GetLength(0) / 8, 5 * matrix1.GetLength(0) / 8); });
+            threads[5] = new Thread(() => { AddPartial(matrix1, matrix2, res,       5 * matrix1.GetLength(0) / 8, 6 * matrix1.GetLength(0) / 8); });
+            threads[6] = new Thread(() => { AddPartial(matrix1, matrix2, res,       6 * matrix1.GetLength(0) / 8, 7 * matrix1.GetLength(0) / 8); });
+            threads[7] = new Thread(() => { AddPartial(matrix1, matrix2, res,       7 * matrix1.GetLength(0) / 8, matrix1.GetLength(0)); });
+            foreach (var i in threads)
+            {
+                i.Start();
+            }
+            foreach (var i in threads)
+            {
+                i.Join();
+            }
+
+
+            return res;
+        }
+
         static void AddPartial(double[,] matrix1, double[,] matrix2, double[,] res, int startI, int endI)
         {
             for (int i = startI; i < endI; i ++)
