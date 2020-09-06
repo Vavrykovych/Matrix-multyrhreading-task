@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\User\\Desktop\\Vavrykovych\\MaxrixAddingParalel\\MatrixAdding\\MatrixAdding\\MatrixAdding.csproj",
+      "projectUniqueName": "D:\\Dekete\\MaxrixAddingParalel\\MatrixAdding\\MatrixAdding\\MatrixAdding.csproj",
       "projectName": "MatrixAdding",
-      "projectPath": "C:\\Users\\User\\Desktop\\Vavrykovych\\MaxrixAddingParalel\\MatrixAdding\\MatrixAdding\\MatrixAdding.csproj",
+      "projectPath": "D:\\Dekete\\MaxrixAddingParalel\\MatrixAdding\\MatrixAdding\\MatrixAdding.csproj",
       "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\User\\Desktop\\Vavrykovych\\MaxrixAddingParalel\\MatrixAdding\\MatrixAdding\\obj\\",
+      "outputPath": "D:\\Dekete\\MaxrixAddingParalel\\MatrixAdding\\MatrixAdding\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
