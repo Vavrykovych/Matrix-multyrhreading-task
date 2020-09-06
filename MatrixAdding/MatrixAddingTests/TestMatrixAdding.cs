@@ -81,6 +81,13 @@ namespace MatrixAddingTests
             double[,] actual = matrix1.AddInSixThread(matrix2);
             Assert.AreEqual(result, actual);
         }
+
+        [TestCaseSource(nameof(ArraysPlusOperator))]
+        public void Matrix_AddInNThread_Works_Correctly(double[,] matrix1, double[,] matrix2, double[,] result)
+        {
+            double[,] actual = matrix1.AddInNThreads(matrix2,3);
+            Assert.AreEqual(result, actual);
+        }
     }
 }
 
