@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "I3PZkPPcI9ZR0LQjxYivZgbstkLlEnWek6EmL+p6EzowpTKPZpyWk+ySlXZfvh80bpARShNtLjRWTWdqY7ZnyQ==",
+  "dgSpecHash": "TcMhbtm7hKh9n7OoXxT3xq9SvnYPtDsBrCG91Bwf+kdE9HjU9LfjuShVqK+4pUtklxV50RviUxBFSN90XQgqNw==",
   "success": true,
-  "projectFilePath": "D:\\Dekete\\MaxrixAddingParalel\\MatrixAdding\\MatrixAddingTests\\MatrixAddingTests.csproj",
+  "projectFilePath": "C:\\Users\\User\\Desktop\\Vavrykovych\\Matrix-multyrhreading-task\\MatrixAdding\\MatrixAddingTests\\MatrixAddingTests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\User\\.nuget\\packages\\microsoft.codecoverage\\16.4.0\\microsoft.codecoverage.16.4.0.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.csharp\\4.0.1\\microsoft.csharp.4.0.1.nupkg.sha512",

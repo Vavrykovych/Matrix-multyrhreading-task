@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Dekete\\MaxrixAddingParalel\\MatrixAdding\\MatrixAddingTests\\MatrixAddingTests.csproj": {}
+    "C:\\Users\\User\\Desktop\\Vavrykovych\\Matrix-multyrhreading-task\\MatrixAdding\\MatrixAddingTests\\MatrixAddingTests.csproj": {}
   },
   "projects": {
-    "D:\\Dekete\\MaxrixAddingParalel\\MatrixAdding\\MatrixAddingTests\\MatrixAddingTests.csproj": {
+    "C:\\Users\\User\\Desktop\\Vavrykovych\\Matrix-multyrhreading-task\\MatrixAdding\\MatrixAddingTests\\MatrixAddingTests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Dekete\\MaxrixAddingParalel\\MatrixAdding\\MatrixAddingTests\\MatrixAddingTests.csproj",
+        "projectUniqueName": "C:\\Users\\User\\Desktop\\Vavrykovych\\Matrix-multyrhreading-task\\MatrixAdding\\MatrixAddingTests\\MatrixAddingTests.csproj",
         "projectName": "MatrixAddingTests",
-        "projectPath": "D:\\Dekete\\MaxrixAddingParalel\\MatrixAdding\\MatrixAddingTests\\MatrixAddingTests.csproj",
+        "projectPath": "C:\\Users\\User\\Desktop\\Vavrykovych\\Matrix-multyrhreading-task\\MatrixAdding\\MatrixAddingTests\\MatrixAddingTests.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "D:\\Dekete\\MaxrixAddingParalel\\MatrixAdding\\MatrixAddingTests\\obj\\",
+        "outputPath": "C:\\Users\\User\\Desktop\\Vavrykovych\\Matrix-multyrhreading-task\\MatrixAdding\\MatrixAddingTests\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -30,8 +30,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "D:\\Dekete\\MaxrixAddingParalel\\MatrixAdding\\MatrixAdding\\MatrixAdding.csproj": {
-                "projectPath": "D:\\Dekete\\MaxrixAddingParalel\\MatrixAdding\\MatrixAdding\\MatrixAdding.csproj"
+              "C:\\Users\\User\\Desktop\\Vavrykovych\\Matrix-multyrhreading-task\\MatrixAdding\\MatrixAdding\\MatrixAdding.csproj": {
+                "projectPath": "C:\\Users\\User\\Desktop\\Vavrykovych\\Matrix-multyrhreading-task\\MatrixAdding\\MatrixAdding\\MatrixAdding.csproj"
               }
             }
           }
@@ -77,14 +77,14 @@
         }
       }
     },
-    "D:\\Dekete\\MaxrixAddingParalel\\MatrixAdding\\MatrixAdding\\MatrixAdding.csproj": {
+    "C:\\Users\\User\\Desktop\\Vavrykovych\\Matrix-multyrhreading-task\\MatrixAdding\\MatrixAdding\\MatrixAdding.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Dekete\\MaxrixAddingParalel\\MatrixAdding\\MatrixAdding\\MatrixAdding.csproj",
+        "projectUniqueName": "C:\\Users\\User\\Desktop\\Vavrykovych\\Matrix-multyrhreading-task\\MatrixAdding\\MatrixAdding\\MatrixAdding.csproj",
         "projectName": "MatrixAdding",
-        "projectPath": "D:\\Dekete\\MaxrixAddingParalel\\MatrixAdding\\MatrixAdding\\MatrixAdding.csproj",
+        "projectPath": "C:\\Users\\User\\Desktop\\Vavrykovych\\Matrix-multyrhreading-task\\MatrixAdding\\MatrixAdding\\MatrixAdding.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "D:\\Dekete\\MaxrixAddingParalel\\MatrixAdding\\MatrixAdding\\obj\\",
+        "outputPath": "C:\\Users\\User\\Desktop\\Vavrykovych\\Matrix-multyrhreading-task\\MatrixAdding\\MatrixAdding\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

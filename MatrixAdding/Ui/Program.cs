@@ -19,7 +19,12 @@ namespace Ui
             Console.Write("Without multithreading: ");
             Console.WriteLine(sw.ElapsedMilliseconds.ToString() + "ms");
 
-
+            sw.Restart();
+            sw.Start();
+            var c6 = a.AddInNThreads(b, 1);
+            sw.Stop();
+            Console.Write("1 thread:          \t");
+            Console.WriteLine(sw.ElapsedMilliseconds.ToString() + "ms");
 
 
 
@@ -61,28 +66,6 @@ namespace Ui
             Console.Write("10 threads:        \t");
             Console.WriteLine(sw.ElapsedMilliseconds.ToString() + "ms");
 
-
-            for (int i = 0;i<c.GetLength(0);i++)
-            {
-                for(int j = 0;j < c.GetLength(1);j++)
-                {
-
-                    Console.Write(Math.Round(c5[i, j],3).ToString() + " ");
-                    
-                }
-                Console.WriteLine();
-            }
-            Console.WriteLine(); Console.WriteLine(); Console.WriteLine(); Console.WriteLine();
-            for (int i = 0; i < c.GetLength(0); i++)
-            {
-                for (int j = 0; j < c.GetLength(1); j++)
-                {
-
-                    Console.Write(Math.Round(c[i, j], 3).ToString() + " ");
-
-                }
-                Console.WriteLine();
-            }
         }
     }
 }

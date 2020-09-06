@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "IxWYTniUstReH4wYp9d/nvHc8YEvcsygc8BvXUlvXGZFbSTi0jyNHBJGE1Kis2jLKqt3qxcJKa8fSJUphzqbrA==",
+  "dgSpecHash": "3tGphlnZq2JavMSv5Lj1WnOeBtRZbHtnIe/bcgC3ZuNpQgmJilAKwhjeOtxEKxtxlHmLrXof+1Oj86+A0nPMJw==",
   "success": true,
-  "projectFilePath": "D:\\Dekete\\MaxrixAddingParalel\\MatrixAdding\\Ui\\Ui.csproj",
+  "projectFilePath": "C:\\Users\\User\\Desktop\\Vavrykovych\\Matrix-multyrhreading-task\\MatrixAdding\\Ui\\Ui.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
