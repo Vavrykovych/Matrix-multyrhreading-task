@@ -1226,14 +1226,14 @@
           "lib/netstandard1.3/System.Xml.XPath.XmlDocument.dll": {}
         }
       },
-      "MatrixAdding/1.0.0": {
+      "MatrixExtension/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.1",
         "compile": {
-          "bin/placeholder/MatrixAdding.dll": {}
+          "bin/placeholder/MatrixExtension.dll": {}
         },
         "runtime": {
-          "bin/placeholder/MatrixAdding.dll": {}
+          "bin/placeholder/MatrixExtension.dll": {}
         }
       }
     }
@@ -4579,15 +4579,15 @@
         "system.xml.xpath.xmldocument.nuspec"
       ]
     },
-    "MatrixAdding/1.0.0": {
+    "MatrixExtension/1.0.0": {
       "type": "project",
-      "path": "../MatrixAdding/MatrixAdding.csproj",
-      "msbuildProject": "../MatrixAdding/MatrixAdding.csproj"
+      "path": "../MatrixAdding/MatrixExtension.csproj",
+      "msbuildProject": "../MatrixAdding/MatrixExtension.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
-      "MatrixAdding >= 1.0.0",
+      "MatrixExtension >= 1.0.0",
       "Microsoft.NET.Test.Sdk >= 16.4.0",
       "NUnit3TestAdapter >= 3.15.1",
       "nunit >= 3.12.0"
@@ -4600,9 +4600,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\User\\Desktop\\Vavrykovych\\Matrix-multyrhreading-task\\MatrixAdding\\MatrixAddingTests\\MatrixAddingTests.csproj",
-      "projectName": "MatrixAddingTests",
-      "projectPath": "C:\\Users\\User\\Desktop\\Vavrykovych\\Matrix-multyrhreading-task\\MatrixAdding\\MatrixAddingTests\\MatrixAddingTests.csproj",
+      "projectUniqueName": "C:\\Users\\User\\Desktop\\Vavrykovych\\Matrix-multyrhreading-task\\MatrixAdding\\MatrixAddingTests\\MatrixTests.csproj",
+      "projectName": "MatrixTests",
+      "projectPath": "C:\\Users\\User\\Desktop\\Vavrykovych\\Matrix-multyrhreading-task\\MatrixAdding\\MatrixAddingTests\\MatrixTests.csproj",
       "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\User\\Desktop\\Vavrykovych\\Matrix-multyrhreading-task\\MatrixAdding\\MatrixAddingTests\\obj\\",
       "projectStyle": "PackageReference",
@@ -4623,8 +4623,8 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "C:\\Users\\User\\Desktop\\Vavrykovych\\Matrix-multyrhreading-task\\MatrixAdding\\MatrixAdding\\MatrixAdding.csproj": {
-              "projectPath": "C:\\Users\\User\\Desktop\\Vavrykovych\\Matrix-multyrhreading-task\\MatrixAdding\\MatrixAdding\\MatrixAdding.csproj"
+            "C:\\Users\\User\\Desktop\\Vavrykovych\\Matrix-multyrhreading-task\\MatrixAdding\\MatrixAdding\\MatrixExtension.csproj": {
+              "projectPath": "C:\\Users\\User\\Desktop\\Vavrykovych\\Matrix-multyrhreading-task\\MatrixAdding\\MatrixAdding\\MatrixExtension.csproj"
             }
           }
         }

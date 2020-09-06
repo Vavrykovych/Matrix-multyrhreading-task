@@ -30,8 +30,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\Users\\User\\Desktop\\Vavrykovych\\Matrix-multyrhreading-task\\MatrixAdding\\MatrixAdding\\MatrixAdding.csproj": {
-                "projectPath": "C:\\Users\\User\\Desktop\\Vavrykovych\\Matrix-multyrhreading-task\\MatrixAdding\\MatrixAdding\\MatrixAdding.csproj"
+              "C:\\Users\\User\\Desktop\\Vavrykovych\\Matrix-multyrhreading-task\\MatrixAdding\\MatrixAdding\\MatrixExtension.csproj": {
+                "projectPath": "C:\\Users\\User\\Desktop\\Vavrykovych\\Matrix-multyrhreading-task\\MatrixAdding\\MatrixAdding\\MatrixExtension.csproj"
               }
             }
           }
@@ -77,12 +77,12 @@
         }
       }
     },
-    "C:\\Users\\User\\Desktop\\Vavrykovych\\Matrix-multyrhreading-task\\MatrixAdding\\MatrixAdding\\MatrixAdding.csproj": {
+    "C:\\Users\\User\\Desktop\\Vavrykovych\\Matrix-multyrhreading-task\\MatrixAdding\\MatrixAdding\\MatrixExtension.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\User\\Desktop\\Vavrykovych\\Matrix-multyrhreading-task\\MatrixAdding\\MatrixAdding\\MatrixAdding.csproj",
-        "projectName": "MatrixAdding",
-        "projectPath": "C:\\Users\\User\\Desktop\\Vavrykovych\\Matrix-multyrhreading-task\\MatrixAdding\\MatrixAdding\\MatrixAdding.csproj",
+        "projectUniqueName": "C:\\Users\\User\\Desktop\\Vavrykovych\\Matrix-multyrhreading-task\\MatrixAdding\\MatrixAdding\\MatrixExtension.csproj",
+        "projectName": "MatrixExtension",
+        "projectPath": "C:\\Users\\User\\Desktop\\Vavrykovych\\Matrix-multyrhreading-task\\MatrixAdding\\MatrixAdding\\MatrixExtension.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\User\\Desktop\\Vavrykovych\\Matrix-multyrhreading-task\\MatrixAdding\\MatrixAdding\\obj\\",
         "projectStyle": "PackageReference",

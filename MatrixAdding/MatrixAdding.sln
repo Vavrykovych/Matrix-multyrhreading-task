@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30413.136
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MatrixAdding", "MatrixAdding\MatrixAdding.csproj", "{D0C02B8D-3124-4B0B-94EF-D1A0D81D5029}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MatrixExtension", "MatrixAdding\MatrixExtension.csproj", "{D0C02B8D-3124-4B0B-94EF-D1A0D81D5029}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MatrixAddingTests", "MatrixAddingTests\MatrixAddingTests.csproj", "{21BA54E5-A5B4-42F1-BD85-7C2F8C57BA7E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MatrixTests", "MatrixAddingTests\MatrixTests.csproj", "{21BA54E5-A5B4-42F1-BD85-7C2F8C57BA7E}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ui", "Ui\Ui.csproj", "{19288E07-7A21-4FD3-A905-58A1F0D35B9D}"
 EndProject

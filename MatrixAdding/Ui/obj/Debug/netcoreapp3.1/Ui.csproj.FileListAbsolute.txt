@@ -36,8 +36,6 @@ C:\Users\User\Desktop\Vavrykovych\Matrix-multyrhreading-task\MatrixAdding\Ui\bin
 C:\Users\User\Desktop\Vavrykovych\Matrix-multyrhreading-task\MatrixAdding\Ui\bin\Debug\netcoreapp3.1\Ui.runtimeconfig.dev.json
 C:\Users\User\Desktop\Vavrykovych\Matrix-multyrhreading-task\MatrixAdding\Ui\bin\Debug\netcoreapp3.1\Ui.dll
 C:\Users\User\Desktop\Vavrykovych\Matrix-multyrhreading-task\MatrixAdding\Ui\bin\Debug\netcoreapp3.1\Ui.pdb
-C:\Users\User\Desktop\Vavrykovych\Matrix-multyrhreading-task\MatrixAdding\Ui\bin\Debug\netcoreapp3.1\MatrixAdding.dll
-C:\Users\User\Desktop\Vavrykovych\Matrix-multyrhreading-task\MatrixAdding\Ui\bin\Debug\netcoreapp3.1\MatrixAdding.pdb
 C:\Users\User\Desktop\Vavrykovych\Matrix-multyrhreading-task\MatrixAdding\Ui\obj\Debug\netcoreapp3.1\Ui.csprojAssemblyReference.cache
 C:\Users\User\Desktop\Vavrykovych\Matrix-multyrhreading-task\MatrixAdding\Ui\obj\Debug\netcoreapp3.1\Ui.AssemblyInfoInputs.cache
 C:\Users\User\Desktop\Vavrykovych\Matrix-multyrhreading-task\MatrixAdding\Ui\obj\Debug\netcoreapp3.1\Ui.AssemblyInfo.cs
@@ -46,3 +44,5 @@ C:\Users\User\Desktop\Vavrykovych\Matrix-multyrhreading-task\MatrixAdding\Ui\obj
 C:\Users\User\Desktop\Vavrykovych\Matrix-multyrhreading-task\MatrixAdding\Ui\obj\Debug\netcoreapp3.1\Ui.dll
 C:\Users\User\Desktop\Vavrykovych\Matrix-multyrhreading-task\MatrixAdding\Ui\obj\Debug\netcoreapp3.1\Ui.pdb
 C:\Users\User\Desktop\Vavrykovych\Matrix-multyrhreading-task\MatrixAdding\Ui\obj\Debug\netcoreapp3.1\Ui.genruntimeconfig.cache
+C:\Users\User\Desktop\Vavrykovych\Matrix-multyrhreading-task\MatrixAdding\Ui\bin\Debug\netcoreapp3.1\MatrixExtension.dll
+C:\Users\User\Desktop\Vavrykovych\Matrix-multyrhreading-task\MatrixAdding\Ui\bin\Debug\netcoreapp3.1\MatrixExtension.pdb

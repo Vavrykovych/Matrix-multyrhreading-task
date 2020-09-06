@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "TcMhbtm7hKh9n7OoXxT3xq9SvnYPtDsBrCG91Bwf+kdE9HjU9LfjuShVqK+4pUtklxV50RviUxBFSN90XQgqNw==",
+  "dgSpecHash": "zLCqeVutb2uyuo0rl3/9+hYmQ5jLYH/ph947Zo533ftqA6z1+EwtM6G0ivrwmyhqxz1UBJm9ebf2wezpshnmRw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\User\\Desktop\\Vavrykovych\\Matrix-multyrhreading-task\\MatrixAdding\\MatrixAddingTests\\MatrixAddingTests.csproj",
+  "projectFilePath": "C:\\Users\\User\\Desktop\\Vavrykovych\\Matrix-multyrhreading-task\\MatrixAdding\\MatrixAddingTests\\MatrixTests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\User\\.nuget\\packages\\microsoft.codecoverage\\16.4.0\\microsoft.codecoverage.16.4.0.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.csharp\\4.0.1\\microsoft.csharp.4.0.1.nupkg.sha512",

@@ -1,0 +1,8 @@
+C:\Users\User\Desktop\Vavrykovych\Matrix-multyrhreading-task\MatrixAdding\MatrixAdding\bin\Debug\netcoreapp3.1\MatrixExtension.deps.json
+C:\Users\User\Desktop\Vavrykovych\Matrix-multyrhreading-task\MatrixAdding\MatrixAdding\bin\Debug\netcoreapp3.1\MatrixExtension.dll
+C:\Users\User\Desktop\Vavrykovych\Matrix-multyrhreading-task\MatrixAdding\MatrixAdding\bin\Debug\netcoreapp3.1\MatrixExtension.pdb
+C:\Users\User\Desktop\Vavrykovych\Matrix-multyrhreading-task\MatrixAdding\MatrixAdding\obj\Debug\netcoreapp3.1\MatrixExtension.AssemblyInfoInputs.cache
+C:\Users\User\Desktop\Vavrykovych\Matrix-multyrhreading-task\MatrixAdding\MatrixAdding\obj\Debug\netcoreapp3.1\MatrixExtension.AssemblyInfo.cs
+C:\Users\User\Desktop\Vavrykovych\Matrix-multyrhreading-task\MatrixAdding\MatrixAdding\obj\Debug\netcoreapp3.1\MatrixExtension.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\Vavrykovych\Matrix-multyrhreading-task\MatrixAdding\MatrixAdding\obj\Debug\netcoreapp3.1\MatrixExtension.dll
+C:\Users\User\Desktop\Vavrykovych\Matrix-multyrhreading-task\MatrixAdding\MatrixAdding\obj\Debug\netcoreapp3.1\MatrixExtension.pdb
