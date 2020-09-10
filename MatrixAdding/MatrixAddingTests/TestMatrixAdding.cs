@@ -61,29 +61,19 @@ namespace MatrixAddingTests
         }
 
         [TestCaseSource(nameof(ArraysPlusOperator))]
-        public void Matrix_AddInTwoThreads_Works_Correctly(double[,] matrix1, double[,] matrix2, double[,] result)
+        public void Matrix_AddIn1Thread_Works_Correctly(double[,] matrix1, double[,] matrix2, double[,] result)
         {
-            double[,] actual = matrix1.AddInTwoThreads(matrix2);
+            double[,] actual = matrix1.AddInNThreads(matrix2, 1);
             Assert.AreEqual(result, actual);
         }
-
         [TestCaseSource(nameof(ArraysPlusOperator))]
-        public void Matrix_AddInFourThread_Works_Correctly(double[,] matrix1, double[,] matrix2, double[,] result)
+        public void Matrix_AddIn2Thread_Works_Correctly(double[,] matrix1, double[,] matrix2, double[,] result)
         {
-            double[,] actual = matrix1.AddInFourThreads(matrix2);
+            double[,] actual = matrix1.AddInNThreads(matrix2, 2);
             Assert.AreEqual(result, actual);
         }
-
-
         [TestCaseSource(nameof(ArraysPlusOperator))]
-        public void Matrix_AddInEightThread_Works_Correctly(double[,] matrix1, double[,] matrix2, double[,] result)
-        {
-            double[,] actual = matrix1.AddInSixThread(matrix2);
-            Assert.AreEqual(result, actual);
-        }
-
-        [TestCaseSource(nameof(ArraysPlusOperator))]
-        public void Matrix_AddInNThread_Works_Correctly(double[,] matrix1, double[,] matrix2, double[,] result)
+        public void Matrix_AddIn3Thread_Works_Correctly(double[,] matrix1, double[,] matrix2, double[,] result)
         {
             double[,] actual = matrix1.AddInNThreads(matrix2,3);
             Assert.AreEqual(result, actual);

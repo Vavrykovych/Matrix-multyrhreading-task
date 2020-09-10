@@ -65,9 +65,23 @@ namespace MatrixTests
         }
 
         [TestCaseSource(nameof(ArraysOperatorMultiply))]
-        public void Matrix_MultiplyInNThreads_Works_Correctly(double[,] matrix1, double[,] matrix2, double[,] result)
+        public void Matrix_MultiplyIn1Threads_Works_Correctly(double[,] matrix1, double[,] matrix2, double[,] result)
         {
             double[,] actual = matrix1.MultiplyInNThreads(matrix2,1);
+            Assert.AreEqual(result, actual);
+        }
+
+        [TestCaseSource(nameof(ArraysOperatorMultiply))]
+        public void Matrix_MultiplyIn2Threads_Works_Correctly(double[,] matrix1, double[,] matrix2, double[,] result)
+        {
+            double[,] actual = matrix1.MultiplyInNThreads(matrix2, 2);
+            Assert.AreEqual(result, actual);
+        }
+
+        [TestCaseSource(nameof(ArraysOperatorMultiply))]
+        public void Matrix_MultiplyIn3Threads_Works_Correctly(double[,] matrix1, double[,] matrix2, double[,] result)
+        {
+            double[,] actual = matrix1.MultiplyInNThreads(matrix2, 3);
             Assert.AreEqual(result, actual);
         }
     }

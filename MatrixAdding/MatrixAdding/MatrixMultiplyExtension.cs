@@ -35,13 +35,9 @@ namespace MatrixExtension
             {
                 throw new ArgumentException("Matrix sizes not correct.");
             }
-            if (matrix1.GetLength(0) % N != 0 || N <= 0)
-            {
-                throw new ArgumentException("Not correct N");
-            }
             double[,] res = new double[matrix1.GetLength(0), matrix2.GetLength(1)];
             Thread[] threads = new Thread[N];
-            int step = matrix1.GetLength(0) / N;
+            int step = (int)Math.Ceiling((double)matrix1.GetLength(0) / (double)N);
             for (int i = 0; i < N; i++)
             {
                 threads[i] = new Thread((object ind) => {
