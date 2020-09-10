@@ -4,7 +4,7 @@ using System.Threading;
 
 namespace MatrixAdding
 {
-    public static class MatrixExtension
+    public static class MatrixAddExtension
     {
         public static double[,] Add(this double[,] matrix1, double[,] matrix2)
         {

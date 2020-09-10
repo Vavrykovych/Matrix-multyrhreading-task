@@ -1,0 +1,16 @@
+C:\Users\User\Desktop\Vavrykovych\Matrix-multyrhreading-task\MatrixAdding\Ui Multiply\bin\Debug\netcoreapp3.1\Ui Multiply.exe
+C:\Users\User\Desktop\Vavrykovych\Matrix-multyrhreading-task\MatrixAdding\Ui Multiply\bin\Debug\netcoreapp3.1\Ui Multiply.deps.json
+C:\Users\User\Desktop\Vavrykovych\Matrix-multyrhreading-task\MatrixAdding\Ui Multiply\bin\Debug\netcoreapp3.1\Ui Multiply.runtimeconfig.json
+C:\Users\User\Desktop\Vavrykovych\Matrix-multyrhreading-task\MatrixAdding\Ui Multiply\bin\Debug\netcoreapp3.1\Ui Multiply.runtimeconfig.dev.json
+C:\Users\User\Desktop\Vavrykovych\Matrix-multyrhreading-task\MatrixAdding\Ui Multiply\bin\Debug\netcoreapp3.1\Ui Multiply.dll
+C:\Users\User\Desktop\Vavrykovych\Matrix-multyrhreading-task\MatrixAdding\Ui Multiply\bin\Debug\netcoreapp3.1\Ui Multiply.pdb
+C:\Users\User\Desktop\Vavrykovych\Matrix-multyrhreading-task\MatrixAdding\Ui Multiply\bin\Debug\netcoreapp3.1\MatrixExtension.dll
+C:\Users\User\Desktop\Vavrykovych\Matrix-multyrhreading-task\MatrixAdding\Ui Multiply\bin\Debug\netcoreapp3.1\MatrixExtension.pdb
+C:\Users\User\Desktop\Vavrykovych\Matrix-multyrhreading-task\MatrixAdding\Ui Multiply\obj\Debug\netcoreapp3.1\Ui Multiply.csprojAssemblyReference.cache
+C:\Users\User\Desktop\Vavrykovych\Matrix-multyrhreading-task\MatrixAdding\Ui Multiply\obj\Debug\netcoreapp3.1\Ui Multiply.AssemblyInfoInputs.cache
+C:\Users\User\Desktop\Vavrykovych\Matrix-multyrhreading-task\MatrixAdding\Ui Multiply\obj\Debug\netcoreapp3.1\Ui Multiply.AssemblyInfo.cs
+C:\Users\User\Desktop\Vavrykovych\Matrix-multyrhreading-task\MatrixAdding\Ui Multiply\obj\Debug\netcoreapp3.1\Ui Multiply.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\Vavrykovych\Matrix-multyrhreading-task\MatrixAdding\Ui Multiply\obj\Debug\netcoreapp3.1\Ui Multiply.csproj.CopyComplete
+C:\Users\User\Desktop\Vavrykovych\Matrix-multyrhreading-task\MatrixAdding\Ui Multiply\obj\Debug\netcoreapp3.1\Ui Multiply.dll
+C:\Users\User\Desktop\Vavrykovych\Matrix-multyrhreading-task\MatrixAdding\Ui Multiply\obj\Debug\netcoreapp3.1\Ui Multiply.pdb
+C:\Users\User\Desktop\Vavrykovych\Matrix-multyrhreading-task\MatrixAdding\Ui Multiply\obj\Debug\netcoreapp3.1\Ui Multiply.genruntimeconfig.cache

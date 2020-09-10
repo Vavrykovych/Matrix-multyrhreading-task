@@ -7,7 +7,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MatrixExtension", "MatrixAd
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MatrixTests", "MatrixAddingTests\MatrixTests.csproj", "{21BA54E5-A5B4-42F1-BD85-7C2F8C57BA7E}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ui", "Ui\Ui.csproj", "{19288E07-7A21-4FD3-A905-58A1F0D35B9D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ui Adding", "Ui\Ui Adding.csproj", "{19288E07-7A21-4FD3-A905-58A1F0D35B9D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ui Multiply", "Ui Multiply\Ui Multiply.csproj", "{D8CE80AB-4B31-414D-8FF7-47BB840F52AE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{19288E07-7A21-4FD3-A905-58A1F0D35B9D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{19288E07-7A21-4FD3-A905-58A1F0D35B9D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{19288E07-7A21-4FD3-A905-58A1F0D35B9D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D8CE80AB-4B31-414D-8FF7-47BB840F52AE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D8CE80AB-4B31-414D-8FF7-47BB840F52AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D8CE80AB-4B31-414D-8FF7-47BB840F52AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D8CE80AB-4B31-414D-8FF7-47BB840F52AE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

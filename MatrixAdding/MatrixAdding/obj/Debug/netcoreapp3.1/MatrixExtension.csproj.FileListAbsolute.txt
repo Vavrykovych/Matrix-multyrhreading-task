@@ -6,3 +6,4 @@ C:\Users\User\Desktop\Vavrykovych\Matrix-multyrhreading-task\MatrixAdding\Matrix
 C:\Users\User\Desktop\Vavrykovych\Matrix-multyrhreading-task\MatrixAdding\MatrixAdding\obj\Debug\netcoreapp3.1\MatrixExtension.csproj.CoreCompileInputs.cache
 C:\Users\User\Desktop\Vavrykovych\Matrix-multyrhreading-task\MatrixAdding\MatrixAdding\obj\Debug\netcoreapp3.1\MatrixExtension.dll
 C:\Users\User\Desktop\Vavrykovych\Matrix-multyrhreading-task\MatrixAdding\MatrixAdding\obj\Debug\netcoreapp3.1\MatrixExtension.pdb
+C:\Users\User\Desktop\Vavrykovych\Matrix-multyrhreading-task\MatrixAdding\MatrixAdding\obj\Debug\netcoreapp3.1\MatrixExtension.csprojAssemblyReference.cache
