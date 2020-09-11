@@ -1,0 +1,16 @@
+C:\Users\User\Desktop\Vavrykovych\Matrix-multyrhreading-task\MatrixAdding\Ui\bin\Debug\netcoreapp3.1\Ui Adding.exe
+C:\Users\User\Desktop\Vavrykovych\Matrix-multyrhreading-task\MatrixAdding\Ui\bin\Debug\netcoreapp3.1\Ui Adding.deps.json
+C:\Users\User\Desktop\Vavrykovych\Matrix-multyrhreading-task\MatrixAdding\Ui\bin\Debug\netcoreapp3.1\Ui Adding.runtimeconfig.json
+C:\Users\User\Desktop\Vavrykovych\Matrix-multyrhreading-task\MatrixAdding\Ui\bin\Debug\netcoreapp3.1\Ui Adding.runtimeconfig.dev.json
+C:\Users\User\Desktop\Vavrykovych\Matrix-multyrhreading-task\MatrixAdding\Ui\bin\Debug\netcoreapp3.1\Ui Adding.dll
+C:\Users\User\Desktop\Vavrykovych\Matrix-multyrhreading-task\MatrixAdding\Ui\bin\Debug\netcoreapp3.1\Ui Adding.pdb
+C:\Users\User\Desktop\Vavrykovych\Matrix-multyrhreading-task\MatrixAdding\Ui\bin\Debug\netcoreapp3.1\MatrixExtension.dll
+C:\Users\User\Desktop\Vavrykovych\Matrix-multyrhreading-task\MatrixAdding\Ui\bin\Debug\netcoreapp3.1\MatrixExtension.pdb
+C:\Users\User\Desktop\Vavrykovych\Matrix-multyrhreading-task\MatrixAdding\Ui\obj\Debug\netcoreapp3.1\Ui Adding.csprojAssemblyReference.cache
+C:\Users\User\Desktop\Vavrykovych\Matrix-multyrhreading-task\MatrixAdding\Ui\obj\Debug\netcoreapp3.1\Ui Adding.AssemblyInfoInputs.cache
+C:\Users\User\Desktop\Vavrykovych\Matrix-multyrhreading-task\MatrixAdding\Ui\obj\Debug\netcoreapp3.1\Ui Adding.AssemblyInfo.cs
+C:\Users\User\Desktop\Vavrykovych\Matrix-multyrhreading-task\MatrixAdding\Ui\obj\Debug\netcoreapp3.1\Ui Adding.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\Vavrykovych\Matrix-multyrhreading-task\MatrixAdding\Ui\obj\Debug\netcoreapp3.1\Ui Adding.csproj.CopyComplete
+C:\Users\User\Desktop\Vavrykovych\Matrix-multyrhreading-task\MatrixAdding\Ui\obj\Debug\netcoreapp3.1\Ui Adding.dll
+C:\Users\User\Desktop\Vavrykovych\Matrix-multyrhreading-task\MatrixAdding\Ui\obj\Debug\netcoreapp3.1\Ui Adding.pdb
+C:\Users\User\Desktop\Vavrykovych\Matrix-multyrhreading-task\MatrixAdding\Ui\obj\Debug\netcoreapp3.1\Ui Adding.genruntimeconfig.cache

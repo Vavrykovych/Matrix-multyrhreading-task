@@ -29,7 +29,7 @@ namespace MatrixExtension
 
         }
 
-        public static double[,] MultiplyInNThreads(this double[,] matrix1, double[,] matrix2, int N)
+        public static double[,] MultiplyMultithreading(this double[,] matrix1, double[,] matrix2, int N)
         {
             if (matrix1.GetLength(1) != matrix2.GetLength(0))
             {

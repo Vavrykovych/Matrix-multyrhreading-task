@@ -28,7 +28,7 @@ namespace Ui
 
             sw.Restart();
             sw.Start();
-            var c6 = a.AddInNThreads(b, 1);
+            var c6 = a.AddMultithreading(b, 1);
             sw.Stop();
             Console.Write("1 thread:          \t");
             Console.WriteLine(sw.ElapsedMilliseconds.ToString() + "ms  " + "speed " + Math.Round(((double)defaultTime / (double)sw.ElapsedMilliseconds), 3).ToString()
@@ -37,7 +37,7 @@ namespace Ui
 
             sw.Restart();
             sw.Start();
-            var c1 = a.AddInNThreads(b,2);
+            var c1 = a.AddMultithreading(b,2);
             sw.Stop();
             Console.Write("2 threads:          \t");
             Console.WriteLine(sw.ElapsedMilliseconds.ToString() + "ms  " + "speed " + Math.Round(((double)defaultTime / (double)sw.ElapsedMilliseconds), 3).ToString()
@@ -45,7 +45,7 @@ namespace Ui
 
             sw.Restart();
             sw.Start();
-            var c2 = a.AddInNThreads(b,4);
+            var c2 = a.AddMultithreading(b,4);
             sw.Stop();
             Console.Write("4 threads:          \t");
             Console.WriteLine(sw.ElapsedMilliseconds.ToString() + "ms  " + "speed " + Math.Round(((double)defaultTime / (double)sw.ElapsedMilliseconds), 3).ToString()
@@ -54,7 +54,7 @@ namespace Ui
 
             sw.Restart();
             sw.Start();
-            var c3 = a.AddInNThreads(b,6);
+            var c3 = a.AddMultithreading(b,6);
             sw.Stop();
             Console.Write("6 threads:          \t");
             Console.WriteLine(sw.ElapsedMilliseconds.ToString() + "ms  " + "speed " + Math.Round(((double)defaultTime / (double)sw.ElapsedMilliseconds), 3).ToString()
@@ -62,7 +62,7 @@ namespace Ui
 
             sw.Restart();
             sw.Start();
-            var c4 = a.AddInNThreads(b,8);
+            var c4 = a.AddMultithreading(b,8);
             sw.Stop();
             Console.Write("8 threads:         \t");
             Console.WriteLine(sw.ElapsedMilliseconds.ToString() + "ms  " + "speed " + Math.Round(((double)defaultTime / (double)sw.ElapsedMilliseconds), 3).ToString()
@@ -71,7 +71,7 @@ namespace Ui
 
             sw.Restart();
             sw.Start(); 
-            var c5 = a.AddInNThreads(b,10);
+            var c5 = a.AddMultithreading(b,10);
             sw.Stop();
             Console.Write("10 threads:        \t");
             Console.WriteLine(sw.ElapsedMilliseconds.ToString() + "ms  " + "speed " + Math.Round(((double)defaultTime / (double)sw.ElapsedMilliseconds), 3).ToString()
